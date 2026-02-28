@@ -5,7 +5,7 @@ return {
       -- automatic_enable = {
       --   exclude = { "jdtls" },
       -- },
-      ensure_installed = { "ts_ls" },
+      ensure_installed = { "ts_ls", "basedpyright" },
     },
     dependencies = {
       { "mason-org/mason.nvim", opts = {} },
